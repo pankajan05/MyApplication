@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back">
@@ -9,7 +10,7 @@
         android:layout_height="378dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="-1dp"
-        android:background="@color/colorPrimary"
+        android:background="#6AB8E2"
         android:orientation="vertical">
 
         <Button
@@ -22,6 +23,7 @@
             android:layout_marginEnd="138dp"
             android:layout_marginRight="138dp"
             android:layout_marginBottom="25dp"
+            android:background="#00000000"
             android:text="LogIn" />
 
         <EditText
@@ -35,8 +37,8 @@
             android:layout_marginRight="104dp"
             android:layout_marginBottom="45dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="UserName" />
+            android:hint="UserName"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editText2"
@@ -53,4 +55,16 @@
             android:inputType="textPassword" />
 
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="275dp"
+        android:layout_height="161dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginBottom="470dp"
+        app:srcCompat="@drawable/logo" />
 </RelativeLayout>
