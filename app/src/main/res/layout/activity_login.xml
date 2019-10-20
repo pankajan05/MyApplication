@@ -22,7 +22,7 @@
             android:layout_marginEnd="138dp"
             android:layout_marginRight="138dp"
             android:layout_marginBottom="25dp"
-            android:text="Button" />
+            android:text="LogIn" />
 
         <EditText
             android:id="@+id/editText"
@@ -36,7 +36,7 @@
             android:layout_marginBottom="45dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="UserName" />
 
         <EditText
             android:id="@+id/editText2"
@@ -49,6 +49,7 @@
             android:layout_marginRight="96dp"
             android:layout_marginBottom="61dp"
             android:ems="10"
+            android:hint="Password"
             android:inputType="textPassword" />
 
     </RelativeLayout>

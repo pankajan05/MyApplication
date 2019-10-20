@@ -22,19 +22,19 @@
             android:layout_marginEnd="73dp"
             android:layout_marginRight="73dp"
             android:layout_marginBottom="11dp"
-            android:text="Button" />
+            android:text="SignUp" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="162dp"
+            android:id="@+id/fbLogIn"
+            android:layout_width="211dp"
             android:layout_height="wrap_content"
             android:layout_above="@+id/button2"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginEnd="122dp"
-            android:layout_marginRight="122dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginRight="102dp"
             android:layout_marginBottom="22dp"
-            android:text="Button" />
+            android:text=" LogIn with Facebook" />
 
         <EditText
             android:id="@+id/editText3"
@@ -48,19 +48,20 @@
             android:layout_marginBottom="36dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="UserName" />
 
         <EditText
             android:id="@+id/editText4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/button4"
+            android:layout_above="@+id/fbLogIn"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginEnd="103dp"
             android:layout_marginRight="103dp"
             android:layout_marginBottom="29dp"
             android:ems="10"
+            android:hint="Password"
             android:inputType="textPassword" />
     </RelativeLayout>
 </RelativeLayout>
